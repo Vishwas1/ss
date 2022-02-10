@@ -32,25 +32,25 @@ First let's understand what is difference between structured and unstructured da
 - Because the structured data labels each individual element of the recipe, users can search for your recipe by ingredient, calorie count, cook time, and so on
 - Example: 
 
-```
-{
-      "@context": "https://schema.org/",
-      "@type": "Recipe",
-      "name": "Party Coffee Cake",
-      "author": {
-        "@type": "Person",
-        "name": "Mary Stone"
-      },
-      "datePublished": "2018-03-10",
-      "description": "This coffee cake is awesome and perfect for parties.",
-      "prepTime": "PT20M"
-    }
-```
+   ```
+   {
+         "@context": "https://schema.org/",
+         "@type": "Recipe",
+         "name": "Party Coffee Cake",
+         "author": {
+           "@type": "Person",
+           "name": "Mary Stone"
+         },
+         "datePublished": "2018-03-10",
+         "description": "This coffee cake is awesome and perfect for parties.",
+         "prepTime": "PT20M"
+       }
+   ```
 - Google Search also uses structured data to enable special search result features and enhancements.
 - Structured data can be written in the following formats [JSON-LD](https://json-ld.org/) (Most popular one), [RDFa](https://rdfa.info/), MircoData etc. 
  
 
-
+**References**
 
 - https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data
 - https://www.datamation.com/big-data/structured-data/
