@@ -1,6 +1,6 @@
 Typed data is a JSON object containing type information, domain separator parameters and the message object.  Below is the json-schema definition for TypedData param.
 
-```json
+```js
 {
   type: 'object',
   properties: {
